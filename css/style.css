@@ -1,0 +1,69 @@
+/* SOFT RESET DO CSS */
+* {
+  box-sizing: border-box;
+  margin:0;
+  padding:0;
+}
+
+/* AFETA TODO O LAYOUT DO SITE */
+body {
+  backdrop-filter: blur(2px);
+  background-image: url(../img/background.png);
+  color: white;
+  font-family: 'Raleway', sans-serif;
+}
+
+header {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+}
+
+/* MODIFICA ITENS DO MENU*/
+.menu {
+  background-color: black;
+  height: 40px;
+  position: fixed;
+  top: 0;
+  width: 100vw;
+}
+
+.menu ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+.menu li {
+  font-size: 14px;
+  list-style: none;
+}
+
+.menu a {
+  display: block;
+  padding: 10px 20px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  font-weight: bold;
+}
+
+/*MODIFICA TEXTO DO "MEIO" DO SITE*/
+.site-title, .site-subtitle {
+  text-align: center;
+}
+
+.site-title {
+  font-family: 'Major Mono Display', monospace;
+}
+
+.site-subtitle {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 20px;
+  font-weight: lighter;
+}
